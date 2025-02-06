@@ -23,7 +23,7 @@ class RecipesScreen extends StatelessWidget {
               );
             },
             child: const CircleAvatar(
-              backgroundImage: NetworkImage('assets/images/Image1.jpg')
+              backgroundImage: AssetImage('assets/images/Image1.jpg'),
             ),
           ),
         ],
